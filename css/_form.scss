@@ -1,0 +1,88 @@
+
+.form-container {
+    display: none;
+    position: fixed;
+    left: 260;
+    top: 0;
+    z-index: 10;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    transition: all 1s linear;
+    background-color: $color_background;
+
+    &.show {
+        display: flex;
+      }
+}
+
+form {
+    align-self: center;
+    height: 55%;
+    width: 24rem;
+}
+
+.form-ul {
+    text-align: left;
+}
+
+.form-ul li {
+    display: block;
+    margin-bottom: 1.5rem;
+}
+
+input {
+    height: 4rem;
+}
+
+textarea {
+    height: 9rem;
+    padding-top: 1rem;
+}
+
+input,
+textarea {
+    width: 70%;
+    padding-left: 1.5rem;
+    border: none;
+    border-radius: 25px;
+    outline: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 1rem;
+    color: $color_darker-gray;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+    color: $color_light-gray;
+}
+
+label {
+    font-family: $font_cocogoose-regular;
+    font-size: 1.375rem;
+    line-height: 1.5rem;
+    font-style: normal;
+    font-weight: normal;
+    color: $color_main-blue;
+}
+
+#label-left {
+    margin-left: -13rem;
+    padding-right: 3rem;
+
+}
+
+.close-form {
+    position: absolute;
+    top: 40;
+    right: 300;
+    height: 1.5rem;
+    cursor: pointer;
+
+    & img {
+        height: 100%;
+    }
+}

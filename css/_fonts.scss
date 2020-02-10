@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: 'cocogoose_proregular';
+    src: url('../fonts/cocogoose-pro-regular-ttf-webfont.woff2') format('woff2'),
+         url('../fonts/cocogoose-pro-regular-ttf-webfont.woff') format('woff'),
+         url('../fonts/Cocogoose-Pro-Regular-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocogoose_prosemilight';
+    src: url('../fonts/cocogoose-pro-semilight-ttf-webfont.woff2') format('woff2'),
+         url('../fonts/cocogoose-pro-semilight-ttf-webfont.woff') format('woff'),
+         url('../fonts/Cocogoose-Pro-Semilight-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'cocogoose_prolight';
+    src: url('../fonts/cocogoose-pro-light-ttf-webfont.woff2') format('woff2'),
+         url('../fonts/cocogoose-pro-light-ttf-webfont.woff') format('woff'),
+         url('../fonts/Cocogoose-Pro-Light-TTF.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+$font_cocogoose-regular: 'cocogoose_proregular', sans-serif;
+$font_cocogoose-semilight: 'cocogoose_prosemilight', sans-serif;
+$font_cocogoose-light: 'cocogoose_prolight', sans-serif;
+$font_noto-serif:  'Noto Serif', serif;
+$font_noto-serif-sans:  'Noto Serif', sans-serif;

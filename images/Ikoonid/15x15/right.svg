@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon/15x15/right</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/15x15/right" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="angle-right" transform="translate(4.500000, 2.500000)" fill="#B8B8B8" fill-rule="nonzero">
+            <path d="M5.67955477,5.33196641 L1.07889084,9.86233158 C0.895332943,10.0458895 0.598515915,10.0458895 0.414958016,9.86233158 L0.137668424,9.58504198 C-0.0458894747,9.40148409 -0.0458894747,9.10466706 0.137668424,8.92110916 L4.13298184,5 L0.141573911,1.07889084 C-0.0419839875,0.895332943 -0.0419839875,0.598515915 0.141573911,0.414958016 L0.418863503,0.137668424 C0.602421402,-0.0458894747 0.89923843,-0.0458894747 1.08279633,0.137668424 L5.68346026,4.66803359 C5.86311267,4.85159149 5.86311267,5.14840851 5.67955477,5.33196641 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

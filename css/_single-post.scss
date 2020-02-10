@@ -1,0 +1,61 @@
+
+//== NEXT POST PAGES ==//
+.post-links {
+    margin: 2rem 0rem 6rem 0rem;
+    font-family: $font_noto-serif-sans;
+    font-size: 1rem;
+}
+
+a.page-numbers {
+    margin-right: 1.5rem;
+    padding: 0.35rem 0.6rem;
+    font-weight: 600;
+    color: $color_light-gray;
+    border: none;
+    background-color: white;
+    border-radius: 75%;
+    text-decoration: none;
+}
+
+.page-numbers.current,
+.page-numbers:hover {
+    margin-right: 1.5rem;
+    padding: 0.35rem 0.6rem;
+    font-weight: 600;
+    color: white;
+    background-color: $color_link;
+    border: none;
+    border-radius: 75%;
+}
+
+.next.page-numbers,
+.prev.page-numbers,
+.next.page-numbers:hover,
+.prev.page-numbers:hover {
+    color: $color_light-gray;
+    background-color: transparent;
+}
+
+
+//== POST DATE ==//
+.post-date {
+    font-size: 0.8rem;
+    color: $color_light-gray;
+}
+
+
+//== JAGA ARTIKLIT ==//
+.jaga-artiklit {
+    display: flex;
+}
+
+#jaga-artiklit-pealkiri {
+    font-family: $font_cocogoose-regular;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+    color: $color_main-dark-gray;
+}
+
+.jaga-artiklit a {
+    margin-right: 2.5rem;
+}

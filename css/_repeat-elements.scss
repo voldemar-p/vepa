@@ -1,0 +1,119 @@
+
+//== GREEN CONTACT ICON ==//
+.contact-icon {
+    position: fixed;
+    bottom: 15;
+    right: 15;
+    z-index: 9;
+    cursor: pointer;
+}
+
+
+//=== PAGE BANNER ===//
+.page-banner-img {
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: flex-end;
+    background-size: cover;
+    }
+
+.page-banner-img-title {
+    padding-right: 4rem;
+    padding-bottom: 2rem;
+}
+
+.page-banner-img-line {
+    height: 2rem;
+    width: 100%;
+    z-index: 1;
+    margin-bottom: -1.1rem;
+    background-position: center;
+    background-repeat: repeat-x;
+}
+
+
+//== BREADCRUMBS ==//
+.parent-menu-links {
+    font-family: $font_noto-serif-sans;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+    color: $color_light-gray;
+}
+
+.parent-menu-links a {
+    color: $color_light-gray;
+}
+
+.parent-menu-links a:hover {
+    color: $color_link;
+    text-decoration: none;
+}
+
+.parent-menu-links-post {
+    font-family: $font_noto-serif-sans;
+    font-size: 1rem;
+    margin-bottom: -2rem;
+    color: $color_light-gray;
+}
+
+.parent-menu-links-post a {
+    color: $color_light-gray;
+}
+
+.parent-menu-links-post a:hover {
+    color: $color_link;
+    text-decoration: none;
+}
+
+.current-page {
+    color: $color_main-dark-gray;
+}
+
+
+//== BUTTONS ==//
+.button {
+    width: fit-content;
+    padding: 0.9rem 1.5rem;
+    border-radius: 25px;
+    background-color: $color_main-blue;
+    font-family: $font_cocogoose-regular;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.1rem;
+
+    &--form {
+        color: white;
+        text-transform: uppercase;
+        border: none;
+    }
+}
+
+.button:link {
+    color: white;
+    text-decoration: none;
+}
+
+.button:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    color: white;
+    background-color: $color_link;
+    text-decoration: none;
+}
+
+.button:active {
+    color: white;
+    background-color: $color_link;
+    text-decoration: none;
+}
+
+.loe-edasi {
+    display: flex;
+    justify-content: center;
+}

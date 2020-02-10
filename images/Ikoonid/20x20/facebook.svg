@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="20px" height="20px" viewBox="0 0 20 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>icon/20x20/facebook</title>
+    <desc>Created with Sketch.</desc>
+    <g id="icon/20x20/facebook" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M10,20 C4.4771525,20 0,15.5228475 0,10 C0,4.4771525 4.4771525,0 10,0 C15.5228475,0 20,4.4771525 20,10 C20,15.5228475 15.5228475,20 10,20 Z M8.49804688,15 L10.3339844,15 L10.3339844,10.5273438 L11.7714844,10.5273438 L12,8.75 L10.3339844,8.75 L10.3339844,7.52539062 C10.3339844,7.01171875 10.4765625,6.66015625 11.2148438,6.66015625 L12.15625,6.66015625 L12.15625,5.0703125 C11.9941406,5.04882812 11.4355469,5 10.7851562,5 C9.42773438,5 8.49804688,5.828125 8.49804688,7.34960938 L8.49804688,8.75 L7,8.75 L7,10.5273438 L8.49804688,10.5273438 L8.49804688,15 Z" id="Combined-Shape" fill="#3B3B3B" fill-rule="nonzero"></path>
+    </g>
+</svg>

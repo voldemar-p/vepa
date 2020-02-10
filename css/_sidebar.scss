@@ -1,0 +1,80 @@
+
+//== SIDEBAR MAIN ==//
+.sidebar-div {
+    display: none;
+    position: fixed;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    z-index: 2;
+    background-color: white;
+
+    &.active {
+        display: block;
+    }
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    width: auto;
+    justify-content: space-between;
+    padding-left: 3rem;
+    @include animation;
+
+    &--bottom { // JS- sidebari sisu padding footerist alla scrollides
+        padding-bottom: 20vh;
+        @include animation;
+    }
+}
+
+
+//== MENU ==//
+.menu a {
+    color: $color_main-dark-gray;
+    font-family: $font_cocogoose-semilight;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 3.3rem;
+    text-transform: uppercase;
+}
+
+.menu a:hover {
+    color: $color_link;
+    text-decoration:none;
+}
+
+.current-menu-item a,
+.current-menu-parent a,
+.current-page-ancestor a,
+.current-post-ancestor a { 
+    color: $color_link; 
+}
+
+
+//== OTHER ELEMENTS ==//
+.searchform {
+    display: flex;
+    height: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 3rem;
+    padding-right: 0.5rem;
+    border-bottom-style: solid;
+    border-width: 1px;
+    border-color: $color_background;
+}
+
+.image {
+    width: 88%;
+    margin-left: -0.5rem;
+}
+
+#button-sidebar {
+    position: relative;
+    margin-left: -0.5rem;
+    padding: 1.1rem 1.5rem;
+    font-size: 1.25rem;
+}

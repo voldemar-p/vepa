@@ -1,0 +1,48 @@
+
+//== MOBILE HEADER ==//
+#mob-header {
+    position: fixed;
+    display: flex;
+    height: 3rem;
+    width: 100%;
+    z-index: 2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 2rem;
+    background-color: white;
+}
+
+#mob-header a {
+    height: 100%;
+}
+
+.mob-logo {
+    height: 100%;
+    width: auto;
+}
+
+.burger-menu {
+    display: flex;
+    flex-direction: column;
+    height: 1.1rem;
+    justify-content: space-between;
+}
+
+.mob-nav:hover {
+    cursor: pointer;
+}
+
+.burger-menu-item {
+    height: 3px;
+    width: 30px;
+    background-color: $color_darker-gray;
+}
+
+.close-burger {
+    display: none;
+    height: 1.5rem;
+
+    & img {
+        height: 100%;
+    }
+}

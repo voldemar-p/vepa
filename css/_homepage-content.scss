@@ -1,0 +1,157 @@
+
+//== SIHTRUHMAD ==//
+.kodulehe-sihtruhmade-div {
+    height: 20rem;
+    margin-left: 4rem;
+    background-size: 12rem;
+    background-repeat: repeat;
+}
+
+.sihtruhmade-alam-div {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    margin-top: -1.5rem;
+    margin-left: -1.3rem;
+}
+
+.kodulehe-sihtruhmade-scroll {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 33.3%;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+    border-right-style: solid;
+    border-color: $color_background;
+    border-width: 1px;
+}
+
+
+//== VIDEO ==//
+.esilehe-video {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    background-size: cover;
+    cursor: pointer;
+}
+
+.video-text {
+    font-family: $font_noto-serif-sans;
+    font-weight: bold;
+}
+
+#video-iframe {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 11;
+    height: 100vh;
+    width: 100vw;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+}
+
+#video-close {
+    position: absolute;
+    top: 2.5rem;
+    right: 2.5rem;
+    height: 2rem;
+    width: auto;
+    visibility: visible;
+    padding: 0.5rem;
+    border: hidden;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+
+//== LIITUNUD ==//
+.liitunud {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.liitunud-kes {
+    display: flex;
+    flex-direction: column;
+    height: 13rem;
+    width: 13rem;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.liitunud-kes :last-child {
+    margin-top: -0.6rem;
+}
+
+.liitunud-nr {
+    font-family: $font_cocogoose-regular;
+    font-weight: normal;
+    font-size: 2.5rem;
+    line-height: 1.1rem;
+    color: $color_main-blue;
+}
+
+.liitunud-txt {
+    font-family: $font_cocogoose-semilight;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.1rem;
+}
+
+
+//== POSTS ==//
+.kodulehe-postituste-div {
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.kodulehe-postituste-bg {
+    display: flex;
+    margin-right: 4rem;
+    padding: 0;
+    background-size: 12rem;
+    background-repeat: repeat;
+}
+
+.kodulehe-postituste-scroll {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top: -1.25rem;
+    margin-left: -1.25rem;
+}
+
+.kodulehe-postituste-scroll-alam {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: white;
+}
+
+.scroll-content {
+    padding-bottom: 1.5rem;
+}

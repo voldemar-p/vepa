@@ -1,0 +1,59 @@
+
+.search-container {
+    position: fixed;
+    left: 260;
+    top: 0;
+    z-index: 8;
+    display: none;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: $color_background;
+}
+
+.search-form {
+    height: 10%;
+}
+
+#otsi-label {
+    margin-left: -7rem;
+    padding-right: 3rem;
+}
+
+.search-close--js {
+    position: absolute;
+    top: 40;
+    right: 300;
+    height: 1.5rem;
+    cursor: pointer;
+
+    & img {
+        height: 100%;
+    }
+}
+
+#search-submit-btn {
+    height: 2rem;
+    margin-left: -3rem;
+    background-color: transparent;
+    border: none;
+}
+
+#search-submit-btn img {
+    height: 80%;
+}
+
+#search-trigger--js {
+    cursor: text;
+}
+
+#search-trigger--js a {
+    cursor: pointer;
+}
+
+input[type="search"]::-webkit-search-decoration,
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-results-button,
+input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance:none;
+}

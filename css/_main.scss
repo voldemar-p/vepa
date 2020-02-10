@@ -1,0 +1,57 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: $color_background;
+}
+
+ul {
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+a:link {
+    color: $color_link;
+}
+
+a:visited {
+    color: $color_link;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: $color_link;
+}
+
+a:active {
+    text-decoration: none;
+    color: $color_link;
+}
+
+.container-fluid {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.main-content-div {
+    width: 100%;
+    margin-left: 275px;
+
+}
+
+.narrow-width {
+    width: 70%;
+    margin-top: 5rem;
+    margin-right: 3rem;
+    margin-left: 2rem;
+}
+
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+  }
